@@ -9,21 +9,7 @@ venom
     console.log(erro);
   });
 
-function start(client) {
-  // client.onMessage((message) => {
-  //   if (message.body == 'Boa') {
-  //     client
-  //       .sendText(message.from, 'Welcome Venom 🕷')
-  //       .then((result) => {
-  //         console.log('Result: ', result); //return object success
-  //       })
-  //       .catch((erro) => {
-  //         console.error('Error when sending: ', erro); //return object error
-  //       });
-  //   }
-  // });
-
-  const canal = '120363168815329941@g.us'
+  const canal = '120363168508292831@g.us'
 
   let tempoFinalGlobal = ''
   let tempoInicialGlobal = ''
@@ -82,10 +68,27 @@ function start(client) {
     return `${hours}:${minutes}`
   }
 
-  presinal()
+
+function start(client) {
+
+  // client.onMessage((message) => {
+  //   if (message.body == 'Boa') {
+  //     client
+  //       .sendText(message.from, 'Welcome Venom 🕷')
+  //       .then((result) => {
+  //         console.log('Result: ', result); //return object success
+  //       })
+  //       .catch((erro) => {
+  //         console.error('Error when sending: ', erro); //return object error
+  //       });
+  //   }
+  // });
+
+
+
+
 
   function presinal() {
-
 
     setTimeout(() => {
 
@@ -96,8 +99,9 @@ function start(client) {
       tempoFinalGlobal = tempoFinal
       tempoInicialGlobal = tempoInicial
 
+
       client.sendText(canal, `
-  🚨 Falta ${numero} minutos para ativar o nosso *HACK DENTRO DA CASA!*  🚨
+      🚨 Falta ${numero} minutos para ativar o nosso *HACK DENTRO DA CASA!*  🚨
 
   Como você está? Preparado para ganhar uma grana daqui 8 minutos? Já estou ansioso para jogarmos todos juntos 🔥
 
@@ -105,10 +109,11 @@ function start(client) {
 
   Enquanto aguardamos o sinal, aproveitem para realizar o cadastro na plataforma onde descobrimos esse *HACK DENTRO DA CASA* .
 
-  📲 CLIQUE AQUI PARA SE REGISTRAR: bit.ly/registroflybet
+  📲 CLIQUE AQUI PARA SE REGISTRAR: 
+  bit.ly/Deposite30eGanhe60Reais
     `)
       primeiraMsg(tempoInicial, tempoFinal, numero)
-    }, gerarNumeroAleatorio(8, 15) * 60000)
+    }, 120000 )
   }
 
   function primeiraMsg(tempoInicial, tempoFinal, tempo) {
@@ -133,10 +138,10 @@ function start(client) {
 
 
   🎁 CADASTRE-SE E GANHE ATÉ 200% DE BÔNUS NESSA PLATAFORMA.
-  https://bit.ly/registroflybet
+  bit.ly/Deposite30eGanhe60Reais
 
   📱 Jogar Fortune Tiger 🐯
-  https://bit.ly/registroflybet
+  bit.ly/CorretoraPaganteAqui
 
   ⚠ SINAL SÓ FUNCIONA NA PLATAFORMA ACIMA!
 
@@ -167,7 +172,7 @@ function start(client) {
 
   AGUARDE A PRÓXIMA SESSÃO E ME ENVIEM OS SEUS GANHOS NO PRIVADO 💥🥇		 
 
-  📲 CLIQUE AQUI PARA CADASTRAR : https://bit.ly/registroflybet
+  📲 CLIQUE AQUI PARA CADASTRAR : bit.ly/Deposite30eGanhe60Reais
 
           `)
       presinal()
@@ -175,6 +180,7 @@ function start(client) {
 
   }, 60000)
 
+  presinal()
 
 }
 
