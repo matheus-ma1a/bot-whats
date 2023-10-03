@@ -110,7 +110,7 @@ function start(client) {
   Enquanto aguardamos o sinal, aproveitem para realizar o cadastro na plataforma onde descobrimos esse *HACK DENTRO DA CASA* .
 
   📲 CLIQUE AQUI PARA SE REGISTRAR: 
-  bit.ly/-Deposite30eGanhe60Reais
+  bit.ly/Deposite30eGanhe60Reais
     `)
       primeiraMsg(tempoInicial, tempoFinal, numero)
     }, 120000 )
@@ -132,16 +132,16 @@ function start(client) {
   ESTRATÉGIA 👇🏻
 
   📊Estratégia que vamos usar:
-  ${gerarNumeroAleatorio(5, 19)}x R$0,40 [NORMAL]
-  ${gerarNumeroAleatorio(5, 18)}x R$0,40 [TURBO]
-  ${gerarNumeroAleatorio(4, 19)}x R$0,40 [AUTÓMATICO]
+  ${gerarNumeroAleatorio(5, 13)}x R$0,40 [NORMAL]
+  ${gerarNumeroAleatorio(5, 13)}x R$0,40 [TURBO]
+  ${gerarNumeroAleatorio(4, 13)}x R$0,40 [AUTÓMATICO]
 
 
   🎁 CADASTRE-SE E GANHE ATÉ 200% DE BÔNUS NESSA PLATAFORMA.
-  bit.ly/-Deposite30eGanhe60Reais
+  bit.ly/Deposite30eGanhe60Reais
 
   📱 Jogar Fortune Tiger 🐯
-  bit.ly/-CorretoraPaganteAqui
+  bit.ly/CorretoraPaganteAqui
 
   ⚠ SINAL SÓ FUNCIONA NA PLATAFORMA ACIMA!
 
@@ -172,7 +172,7 @@ function start(client) {
 
   AGUARDE A PRÓXIMA SESSÃO E ME ENVIEM OS SEUS GANHOS NO PRIVADO 💥🥇		 
 
-  📲 CLIQUE AQUI PARA CADASTRAR : bit.ly/-Deposite30eGanhe60Reais
+  📲 CLIQUE AQUI PARA CADASTRAR : bit.ly/Deposite30eGanhe60Reais
 
           `)
       presinal()
